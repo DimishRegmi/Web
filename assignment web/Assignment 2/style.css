@@ -1,0 +1,82 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6e6;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
+
+h2 {
+  color: #d63384;
+}
+
+.roses img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.valentines-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.valentines-list li {
+  background: #ffcccc;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.personal-info table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 50%;
+  background: white;
+}
+
+.personal-info th,
+.personal-info td {
+  border: 1px solid #d63384;
+  padding: 10px;
+}
+
+.date-form form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.date-form label,
+.date-form select,
+.date-form input,
+.date-form textarea,
+.date-form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.date-form button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.date-form button:hover {
+  background-color: #d63384;
+}
