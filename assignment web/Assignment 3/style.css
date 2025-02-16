@@ -1,0 +1,114 @@
+/* General Page Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e0f7fa; /* Light cyan background */
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  color: #00796b; /* Teal color */
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 1rem;
+  background-color: #ffeb3b; /* Bright yellow */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d32f2f; /* Red color */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #1976d2; /* Blue color */
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff5722; /* Orange color on hover */
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    #ff4081,
+    #ffeb3b
+  ); /* Gradient background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* About Us Page */
+.about-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid #ff4081; /* Pink border */
+}
+
+/* Contact Form */
+form {
+  background-color: #1c44be; /* White background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form .form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ff5722; /* Orange border */
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+form button[type="submit"] {
+  background-color: #4caf50; /* Green button */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #3e2723; /* Dark brown */
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+}
